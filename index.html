@@ -1,44 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Dorama Insider - Página Principal</title>
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <header>
+        <figure class="logo">
+            <img src="src/images/logo.png" width="120"
+                alt="logo do blog Dorama Insider que consiste em um casal vestido da Hanbok, vestes tradicionais coreanas.">
+        </figure>
+        <div class="cabecalho">
+            <h1>Dorama Insider</h1>
+            <h2>Tudo sobre as melhores séries asiáticas</h2>
         </div>
-    </div>
+    </header>
 
     <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <main id="inicio">
+        <nav class="sidebar">
+            <h2>Séries</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="/goblin.html">Goblin</a></li>
+                <li><a href="/cheese-in-the-trap.html">Chesse in the Trap</a></li>
+                <li><a href="/the-untamed.html">The Untamed</a></li>
+                <li><a href="/we-best-love.html">We Best Love</a></li>
             </ul>
+        </nav>
+        <div class="content">
+            <section>
+                <h1 id="kdrama">Dramas Coreanos</h1>
+                <p>Dramas coreanos, também conhecidos como "K-dramas", são séries televisivas produzidas na Coreia do
+                    Sul que ganharam popularidade em todo o mundo. Esses dramas são conhecidos por sua narrativa
+                    envolvente, personagens cativantes e uma combinação única de romance, comédia, ação e elementos de
+                    fantasia. Eles geralmente consistem em episódios de uma hora de duração e são transmitidos tanto na
+                    televisão coreana quanto em plataformas de streaming. Os K-dramas abordam uma ampla variedade de
+                    temas, incluindo amor proibido, amizade, família, superação, tradições culturais e desafios sociais.
+                </p>
+                <figure class="right">
+                    <img src="src/images/kdrama.jpeg" alt="Imagem de uma mulher coreana de perfil" width="200px">
+                    <figcaption>Imagem gerada por IA</figcaption>
+                </figure>
+                <p>Com sua produção de alta qualidade e enredos emocionantes, os dramas coreanos conquistaram uma base
+                    de fãs dedicada em todo o mundo, tornando-se uma importante forma de entretenimento globalmente
+                    reconhecida.</p>
+                <p>Os dramas coreanos possuem elementos distintos que os diferenciam de outras séries de televisão. Eles
+                    costumam apresentar uma estética visualmente deslumbrante, com locações pitorescas e figurinos
+                    elaborados. Além disso, os K-dramas são conhecidos por sua capacidade de criar tensão e emoção
+                    através de reviravoltas inesperadas e desenvolvimento cuidadoso dos personagens. Muitos dramas
+                    coreanos exploram temas profundos e complexos, abordando questões sociais e psicológicas de maneira
+                    sensível. Além disso, a música desempenha um papel importante nos K-dramas, com trilhas sonoras
+                    cativantes que se tornam sucesso nas paradas musicais. Com sua mistura única de romance, drama e
+                    entretenimento, os dramas coreanos continuam a encantar e cativar espectadores em todo o mundo.</p>
+            </section>
+            <hr>
+            <section>
+                <h1 id="cdrama">Dramas Chineses <small><a href="#inicio">↑</a></small></h1>
+                <p>Dramas chineses, também conhecidos como "C-dramas", são séries televisivas produzidas na China que
+                    têm ganhado crescente popularidade tanto em seu país de origem quanto internacionalmente. Esses
+                    dramas abrangem uma ampla gama de gêneros, incluindo romance, fantasia, histórico, ação e comédia,
+                    proporcionando uma variedade de opções para os telespectadores.</p>
+                <figure class="left">
+                    <img src="src/images/cdrama.jpeg" alt="Desenho de uma mulher chinesa" width="200px">
+                    <figcaption>Imagem gerada por IA</figcaption>
+                </figure>
+                <p>Os C-dramas são conhecidos por suas tramas elaboradas, ricas em detalhes e pela cuidadosa recriação
+                    de períodos históricos. Eles geralmente possuem temporadas mais longas, com episódios que variam de
+                    30 a 60 minutos, permitindo um desenvolvimento mais aprofundado dos personagens e da história.</p>
+                <p>Os dramas chineses são valorizados por sua ênfase na tradição cultural chinesa, apresentando
+                    elementos como a medicina tradicional chinesa, artes marciais e filosofia oriental. Além disso, a
+                    qualidade de
+                    produção dos C-dramas tem melhorado significativamente nos últimos anos, com orçamentos mais altos,
+                    cenários deslumbrantes e efeitos visuais avançados. Os C-dramas também são conhecidos por sua
+                    capacidade de evocar uma ampla gama de emoções nos espectadores, combinando momentos de ação
+                    empolgante,
+                    romance intenso e reflexões profundas sobre temas como família, amizade e lealdade. Com sua rica
+                    cultura e
+                    narrativas cativantes, os dramas chineses têm conquistado uma base de fãs leais dentro e fora da
+                    China, expandindo sua influência na indústria do entretenimento global.</p>
+            </section>
+            <hr>
+            <section>
+                <h1 id="tdrama">Dramas Taiwaneses <small><a href="#inicio">↑</a></small></h1>
+                <p>Dramas taiwaneses, também conhecidos como "T-dramas", são séries televisivas produzidas em Taiwan que
+                    têm uma longa história e desempenham um papel importante na indústria do entretenimento da região.
+                    Esses
+                    dramas são conhecidos por sua abordagem única e distintiva em relação a enredos e personagens. Os
+                    T-dramas geralmente se concentram em histórias românticas, comédias leves e dramas familiares,
+                    retratando situações da vida cotidiana com um toque de autenticidade. Eles são conhecidos por sua
+                    capacidade de criar empatia com o público, abordando questões emocionais e dilemas da vida real.</p>
+                <figure class="right">
+                    <img src="src/images/tdrama.jpeg" alt="Imagem de uma mulher taiwanesa de perfil" width="200px">
+                    <figcaption>Imagem gerada por IA</figcaption>
+                </figure>
+                <p>Os T-dramas são apreciados por sua representação realista de relacionamentos e por explorar temas
+                    como amizade, amor, ambição e superação pessoal. Muitos dramas taiwaneses se destacam por seu humor
+                    encantador e pelo retrato sensível da cultura taiwanesa, incluindo aspectos da culinária, tradições
+                    e costumes locais. Os T-dramas geralmente possuem temporadas mais curtas, com episódios que variam
+                    de
+                    45 a 90 minutos. Embora tenham uma base de fãs principalmente na Ásia, os dramas taiwaneses também
+                    têm
+                    conquistado popularidade internacional, cativando espectadores com sua narrativa envolvente e
+                    personagens carismáticos. Os T-dramas continuam a ser uma parte essencial da indústria do
+                    entretenimento taiwanês, oferecendo uma alternativa cativante para os amantes de séries televisivas.
+                </p>
+            </section>
+            <hr>
+            <section>
+                <h1 id="lakorn">Dramas Tailandeses <small><a href="#inicio">↑</a></small></h1>
+                <p>Dramas tailandeses, também conhecidos como "Lakorns", são séries televisivas produzidas na Tailândia
+                    que têm uma base de fãs dedicada tanto em seu país de origem quanto em outros lugares do mundo.
+                    Esses dramas tailandeses apresentam uma mistura de romance, drama, comédia e ação, oferecendo uma
+                    ampla
+                    variedade de gêneros e histórias para os telespectadores. Os Lakorns são conhecidos por suas
+                    narrativas
+                    emocionantes e intensas, com reviravoltas surpreendentes e personagens complexos.</p>
+                <figure class="left">
+                    <img src="src/images/lakorn.jpeg" alt="Desenho de um casal tailandês com vestimentas tradicionais"
+                        width="200px">
+                    <figcaption>Imagem gerada por IA</figcaption>
+                </figure>
+                <p>Os dramas tailandeses são frequentemente ambientados em cenários exuberantes e apresentam a cultura e
+                    os costumes tailandeses de forma autêntica. Além disso, a música desempenha um papel importante nos
+                    Lakorns, com trilhas sonoras cativantes que complementam a atmosfera das histórias.</p>
+                <p>Muitos dramas tailandeses exploram temas como amor proibido, vingança, poder, amizade e família,
+                    proporcionando
+                    uma experiência envolvente para os espectadores. Com seu estilo único e emocionante, os dramas
+                    tailandeses têm atraído um número crescente de fãs em todo o mundo, contribuindo para a crescente
+                    popularidade
+                    da indústria do entretenimento tailandês.</p>
+            </section>
+            <hr>
+            <section>
+                <h1 id="bl">Dramas BL's <small><a href="#inicio">↑</a></small></h1>
+                <p>Dramas BLS, também conhecidos como "Boy's Love Series", são séries de televisão ou web dramas que
+                    exploram relacionamentos românticos entre personagens masculinos. Originários principalmente da
+                    Ásia, esses dramas ganharam popularidade significativa entre o público LGBTQ+ e além. Os BLS
+                    apresentam histórias emocionantes e cativantes que se concentram no desenvolvimento de relacionamentos amorosos
+                    entre dois homens, abordando temas como descoberta de identidade, aceitação social, superação de
+                    preconceitos e desafios do amor proibido.</p>
+                <figure class="center">
+                    <img src="src/images/bl.jpeg" alt="Desenho de um casal tailandês com vestimentas tradicionais"
+                        width="200px">
+                    <figcaption>Imagem gerada por IA</figcaption>
+                </figure>
+                <p>Os dramas BLS são conhecidos por sua representação positiva e sensível de personagens LGBTQ+,
+                    trazendo à tona questões importantes relacionadas à diversidade sexual e ao amor sem restrições de
+                    gênero. Eles oferecem uma alternativa inclusiva para o público que busca histórias de amor e conexão emocional
+                    fora das convenções tradicionais. Com sua popularidade crescente, os BLS têm se tornado uma parte
+                    significativa da indústria do entretenimento, abrindo caminho para uma maior representatividade
+                    LGBTQ+ e promovendo a conscientização e aceitação em diferentes culturas ao redor do mundo.</p>
+            </section>
         </div>
 
-        <div class="main">
-            
-        </div>
-
-        <div class="anchors">
+        <nav class="anchors">
             <h2>Neste Artigo</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="#kdrama">Sobre Dramas Coreanos</a></li>
+                <li><a href="#cdrama">Sobre Dramas Chineses</a></li>
+                <li><a href="#tdrama">Sobre Dramas Taiwaneses</a></li>
+                <li><a href="#lakorn">Sobre Dramas Tailandeses</a></li>
+                <li><a href="#bl">Sobre Dramas BLs</a></li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </main>
 
-    <div class="footer">
-
-    </div>
+    <footer>
+        <figure>
+            <img src="src/images/logo.png" width="100"
+                alt="logo do blog Dorama Insider que consiste em um casal vestido da Hanbok, vestes tradicionais coreanas."><br>
+            <figcaption>Dorama Insider</figcaption>
+        </figure>
+        <p>Desenvolvido por Elaine Stefani Santin&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<a
+                href="https://github.com/NanneSantin"
+                target="_blank">Contate-me</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<time datetime="2023-06-09">Junho de
+                2023</time></p>
+    </footer>
 </body>
+
 </html>

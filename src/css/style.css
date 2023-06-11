@@ -1,0 +1,197 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    background-color: #ffebeb;
+    color: rgb(82, 81, 81);
+}
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+a {
+    color:blue;
+    text-decoration: none;
+    line-height: 2.5;
+}
+.bar {
+    background-color: palevioletred;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+main {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main p{
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 40px;
+}
+
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-align: center;
+    font-size: 12px;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    float: right;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.right img{
+    border-radius: 20px;
+}
+
+.left{
+    float: left;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.left img{
+    border-radius: 100px;
+}
+
+figcaption{
+    font-size: 12px;
+}
+
+.center{
+    float: center;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.center img{
+    border-radius: 20px;
+}
+
+.capa {
+    border: solid 1px #cdcdcd;
+    margin: 5%;
+    padding: 2%;
+    box-sizing: content-box;
+}
+
+.capa figcaption{
+    font-size: 12px;
+}
+
+.nome-serie {
+    font-style: italic;
+}
+
+main section ul li{
+    list-style-type: disc;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.recuo{
+    margin-left: 120px;
+    list-style-type: circle;
+}
+
+.tabela {
+    color: #202122;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+}
+
+th{
+    border: 1px solid #a2a9b1;
+    background-color: #cdcdcd;
+}
+
+td{
+    border: 1px solid #a2a9b1;
+}
+
+main .tabela{
+    margin: 20px;
+}
+
+main .cab2 {
+    width: 22%;
+}
+
+main .cab3{
+    width: 28%;
+}
+
+main .cab5{
+    width: 10%;
+}
+
+.venceu{
+    text-align: center;
+    background-color: #ddffdd;
+}
+
+.indicado{
+    text-align: center;
+    background-color: #ffdddd;
+}
+
+.coluna-titulo{
+    width: 120px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.coluna-conteudo{
+    width: 180px;
+    padding-left: 10px;
+}
+
+.seitas{
+    font-style: italic;
+}
+
+main .tab-cab1{
+    width: 42%;
+}
+
+main .tab-cab2{
+    width: 30%;
+}
+
+main .tab-cab3{
+    width: 20%;
+}
+
+main .tab-cab4{
+    width: 35%;
+}
